@@ -6,3 +6,71 @@
 body {
   font-family: 'Quicksand', serif;
 }
+
+/* Shared styles */
+
+.max-width {
+  max-width: 1440px;
+}
+
+.fixed-width {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* colors */
+.orange {
+  color: #fea301;
+}
+.sky-blue {
+  color: #01acfd;
+}
+.cyan {
+  color: #05d4df;
+}
+.violet {
+  color: #5d58ef;
+}
+
+/* Header section */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+/* Logo section */
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.logo-section h3 {
+  font-size: 2rem;
+}
+
+/* nav section */
+.nav-bar {
+  display: flex;
+  gap: 32px;
+}
+.nav-bar > li {
+  list-style: none;
+  font-size: 1.25rem;
+}
+
+/* contact button */
+.contact-btn {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #fea301;
+  border: none;
+  padding: 10px 60px;
+  border-radius: 12px;
+}
