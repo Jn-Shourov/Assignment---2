@@ -113,6 +113,7 @@ body {
 .curriculum {
   padding: 60px 0;
   flex-direction: column;
+  align-items: center;
   background-image: url(assets/bg.png);
 }
 .curriculum > h2 {
@@ -158,6 +159,7 @@ body {
   color: #64c8ff;
 }
 
+/* elementary section */
 .elementary {
   border: 0.5px solid #fff4dc;
   background: linear-gradient(#fff4dc 10%, #ffffff 25%);
@@ -166,10 +168,25 @@ body {
   color: #f0aa00;
 }
 
+/* middle section */
 .middle {
   border: 0.5px solid #f2e8ff;
   background: linear-gradient(#f2e8ff 10%, #ffffff 25%);
 }
 .middle > button {
   color: #8700ff;
+}
+
+/* left - right buttons */
+.left-right {
+  gap: 10px;
+}
+.arrow {
+  border: none;
+  background-color: #fea301;
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  /* align-items: center;
+  justify-content: center; */
 }
