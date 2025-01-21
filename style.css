@@ -11,6 +11,7 @@ body {
 
 .max-width {
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 .fixed-width {
@@ -18,8 +19,22 @@ body {
   margin: 0 auto;
 }
 
+.display-flex {
+  display: flex;
+}
+
 .bold {
   font-weight: bold;
+}
+
+.primary-btn {
+  font-size: 1.25rem;
+  color: #ffffff;
+  border: none;
+  width: 197px;
+  border-radius: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* colors */
@@ -38,7 +53,6 @@ body {
 
 /* Header section */
 .header {
-  display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px 0;
@@ -46,7 +60,6 @@ body {
 
 /* Logo section */
 .logo-section {
-  display: flex;
   align-items: center;
   gap: 11px;
 }
@@ -56,7 +69,6 @@ body {
 
 /* nav section */
 .nav-bar {
-  display: flex;
   gap: 32px;
 }
 .nav-bar > li {
@@ -66,11 +78,31 @@ body {
 
 /* contact button */
 .contact-btn {
-  font-size: 1.25rem;
   font-weight: 500;
-  color: #ffffff;
   background-color: #fea301;
-  border: none;
-  padding: 10px 60px;
-  border-radius: 12px;
 }
+
+/* hero section */
+.hero-section {
+  align-items: center;
+  gap: 50px;
+}
+
+/* title section */
+.title {
+  width: 640px;
+}
+.title > h1 {
+  font-size: 3.5rem;
+  line-height: 61px;
+}
+.title > p {
+  font-size: 1.25rem;
+  margin-top: 24px;
+}
+.enroll-btn {
+  margin-top: 24px;
+  background-color: #000000;
+}
+
+/* curriculum section */
