@@ -300,3 +300,54 @@ body {
 .view-all-btn {
   background-color: #000000;
 }
+
+/* footerr section */
+.footer {
+  padding-top: 125px;
+  padding-bottom: 175px;
+  background-color: #01acfd;
+  color: #ffffff;
+}
+.footer-container {
+  justify-content: space-between;
+}
+/*  */
+.left-footer {
+  flex-direction: column;
+  gap: 35px;
+}
+.footer-logo-part {
+  align-items: center;
+}
+.footer-logo-part h4 {
+  font-size: 2.625rem;
+}
+.left-footer p {
+  font-size: 1.25rem;
+  width: 400px;
+}
+/*  */
+.middle-footer h4 {
+  font-size: 1.5rem;
+}
+.footer-nav {
+  margin-top: 35px;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-nav li {
+  list-style: none;
+}
+.nav-link {
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: #ffffff;
+}
+/*  */
+.right-footer h4 {
+  font-size: 1.625rem;
+}
+.social-logos {
+  margin-top: 32px;
+  gap: 10px;
+}
