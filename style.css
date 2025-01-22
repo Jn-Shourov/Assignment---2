@@ -60,11 +60,9 @@ body {
 
 .cursor-pointer {
   cursor: pointer;
-  transition: 0.15s;
 }
 .cursor-auto {
   cursor: auto;
-  transition: 0.15s;
 }
 
 /* colors */
@@ -226,6 +224,10 @@ body {
   width: 60px;
   border-radius: 30px;
 }
+.arrow:hover {
+  background-color: rgba(254, 163, 1, 0.7);
+  transition: background-color 0.15s;
+}
 
 /* Our Stories section */
 .our-stories {
@@ -362,9 +364,16 @@ body {
   margin-top: 32px;
   gap: 10px;
 }
-
+.advertisement {
+  font-size: 1.25rem;
+  padding: 5px;
+}
 /* responsive */
 @media screen and (max-width: 390px) {
+  .advertisement {
+    font-size: 1rem;
+    border-bottom: 0.5px solid #fea301;
+  }
   /*-------------------------------------- navbar */
   .logo-section h3,
   .nav-links,
@@ -425,8 +434,8 @@ body {
   .cards {
     flex-direction: column;
     gap: 12px;
-    max-width: 357px;
-    padding: 28px 36px;
+    max-width: 360px;
+    padding: 28px 16px;
   }
   .card {
     gap: 22px;
